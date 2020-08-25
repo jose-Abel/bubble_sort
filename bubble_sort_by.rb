@@ -1,15 +1,13 @@
 def bubble_sort_by (array)
-    n = array.length
     loop do
-        swap = false
-        array.length do |left,right|
+        yield
         if left.length <=> right.length 
-            left = right
-        swap = true
         end
-        # left += 1
+
     end
     array
 end
 end
-puts (["hi","hello","hey"])
+puts bubble_sort_by(["hi","hello","hey"]) do |left,right|
+     left.length - right.length
+    end
