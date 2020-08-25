@@ -10,9 +10,9 @@ def bubble_sort(arr)
       end
       b += 1
     end
-    
+
     break if no_swaps
-    
+
     a -= 1
   end
   arr
