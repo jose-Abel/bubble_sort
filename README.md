@@ -24,7 +24,7 @@ You can clone this code anytime and run it with the Ruby interpreter
 
 
 ### Setup
-You can either copy the code with git clone or just do a git pull on your local environment by running the command ruby bubble_sort or ruby bubble_sort_by
+You can either copy the code with git clone or with any other method and run it on your local environment by running the command ruby bubble_sort or ruby bubble_sort_by
 
 
 ### Run tests
