@@ -7,10 +7,10 @@ def bubble_sort_by(arr)
       left = arr[b]
       right = arr[b + 1]
       result = yield(left, right)
-        if result.positive?
-          arr[b], arr[b + 1] = arr[b + 1], arr[b]
-          no_swaps = false
-        end
+            if result.positive?
+             arr[b], arr[b + 1] = arr[b + 1], arr[b]
+             no_swaps = false
+            end
       b += 1
     end
     break if no_swaps
@@ -20,6 +20,6 @@ def bubble_sort_by(arr)
   puts arr
 end
 
-bubble_sort_by(%w['hi', 'hello', 'hey']) do |left, right|
+bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
