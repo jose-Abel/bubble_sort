@@ -17,4 +17,3 @@ def bubble_sort(arr)
   end
   arr
 end
-puts bubble_sort([100, 243, 210, 120, 40, -80, -300, 2, 4])
